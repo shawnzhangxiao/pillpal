@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm --name \"pillpal\")",
-      "Bash(npx create-next-app@latest /tmp/pillpal --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)"
-    ]
-  }
-}
