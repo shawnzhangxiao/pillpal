@@ -3,13 +3,13 @@ import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 
 export const metadata: Metadata = {
-  title: "服药提醒",
-  description: "每日按时服药提醒",
+  title: "小贝壳 · 每日服药提醒",
+  description: "为小公主的到来做好准备",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "服药提醒",
+    title: "小贝壳",
   },
 };
 
@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN">
-      <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
+      <body className="ocean-gradient min-h-screen text-gray-700 antialiased">
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
